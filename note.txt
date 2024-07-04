@@ -5,7 +5,7 @@
     => mkdir,cd, code .,dir -a
 4. git init in vs code terminal
 5. git status (see modified->'red color' or stagging-> 'green color')
-6. git add <file> (change to stagging)
+6. git add <file> or git add . (change to stagging)
 7. git commit -m "first commit" (to change stagging to commit)
 8. git log (see commit history all)
 9. git log --oneline (see only commit message )
