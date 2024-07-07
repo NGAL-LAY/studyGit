@@ -14,3 +14,9 @@
     =>return latest commit => git checkout master
     =>git revert <first commit id> -> add new commit (exit => Ctrl+X+C   enter)
     =>git reset <first commit if> --hard -> delete all except first commit  
+11. to create branch and delete
+    =>git branch branch_name<feacture-1>
+    =>git checkout feacture-1 (switching feacture-1 branch)
+    =>git branch -a (see the branches)
+    =>git checkout -b branch_name(to create and switch its branch)
+    =git branch -D branch_name(feacture-1) => delete the branch
