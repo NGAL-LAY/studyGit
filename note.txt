@@ -20,3 +20,5 @@
     =>git branch -a (see the branches)
     =>git checkout -b branch_name(to create and switch its branch)
     =git branch -D branch_name(feacture-1) => delete the branch
+12. to merge branches
+    =>git merge feacture-1(want to branch_name)
