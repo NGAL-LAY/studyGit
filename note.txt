@@ -9,3 +9,8 @@
 7. git commit -m "first commit" (to change stagging to commit)
 8. git log (see commit history all)
 9. git log --oneline (see only commit message )
+10. to return commited (checkout, revert, reset)
+    =>git checkout <first commit id> -> show first commit condition
+    =>return latest commit => git checkout master
+    =>git revert <first commit id> -> add new commit (exit => Ctrl+X+C   enter)
+    =>git reset <first commit if> --hard -> delete all except first commit  
