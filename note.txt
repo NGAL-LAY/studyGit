@@ -22,3 +22,8 @@
     =git branch -D branch_name(feacture-1) => delete the branch
 12. to merge branches
     =>git merge feacture-1(want to branch_name)
+13. to add github
+    =>git remote origin github path(https://github.com/NGAL-LAY/studyGit.git)
+    =>git remote -v (to see origin and path)
+    =>git push origin master or another branch_name(to add code github)
+    =>git push origin --delete branch_name(to delete branches)
